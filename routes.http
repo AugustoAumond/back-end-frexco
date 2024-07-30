@@ -1,0 +1,21 @@
+POST  http://localhost:3333/fruits
+Content-Type: application/json
+
+{ "gender": "Malus", "name": "Apple","photo": "./photos/apple.png", "family_order": "Rosaceae", "order": "Rosales", "carbohydrates": 11.4, "protein": 0.3, "fat": 0.4, "calories": 52, "sugar": 10.3
+}
+
+###
+
+GET  http://localhost:3333/fruits
+
+###
+
+PUT   http://localhost:3333/fruits/bcfc9846-13ad-4474-9895-2266c0fde7f0
+Content-Type: application/json
+
+{ "gender": "Malus", "name": "Apple","photo": "./photos/apple.png", "family_order": "Rosaceae", "order": "Rosales", "carbohydrates": 11.4, "protein": 0.3, "fat": 0.4, "calories": 52, "sugar": 10.3
+}
+
+###
+
+DELETE http://localhost:3333/fruits/bcfc9846-13ad-4474-9895-2266c0fde7f0
